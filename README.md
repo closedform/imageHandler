@@ -30,6 +30,8 @@ uv sync
 
 ### 1. Real-time Webcam App
 
+![Hand Control Action](images/hand_action.png)
+
 Run the main application:
 
 ```bash
@@ -52,6 +54,8 @@ uv run src/main.py
 -   `--skip <n>`: Skip every N frames for depth estimation to improve FPS (default: 1).
 
 ### 2. Static Image Converter
+
+![Static Point Cloud](images/3d_image.png)
 
 Convert a single image to a point cloud:
 
